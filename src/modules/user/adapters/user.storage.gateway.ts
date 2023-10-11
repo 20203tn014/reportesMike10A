@@ -1,4 +1,4 @@
-import { pool } from "config/postgres";
+import { pool } from "../../../config/postgres";
 import { TUser } from "../entities/user";
 import { IUserRepository } from "../use_cases/ports/user.repository"
 // Dao

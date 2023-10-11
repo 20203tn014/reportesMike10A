@@ -1,4 +1,4 @@
-import { TUser } from "../../entities/user";
+import { TUser } from "modules/user/entities/user";
 
 export interface IUserRepository{
     findAll(): Promise<TUser[]>;

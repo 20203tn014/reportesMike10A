@@ -1,4 +1,4 @@
-import { UseCase } from "kernel/contract";
+import { UseCase } from "../../../kernel/contract";
 import { TUser } from "../entities/user";
 import { IUserRepository } from "./ports/user.repository";
 
